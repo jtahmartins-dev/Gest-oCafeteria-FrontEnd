@@ -1,0 +1,30 @@
+.historia-page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  animation: fadeIn 0.6s ease both;
+}
+
+.historia-block {
+  margin-bottom: 2.2rem;
+  padding: 1.8rem;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  border-left: 3px solid var(--blood);
+}
+
+.historia-block h3 {
+  font-family: 'Cinzel', serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 0.9rem;
+}
+
+.historia-block p {
+  color: var(--muted-text);
+  line-height: 1.95;
+  font-size: 0.95rem;
+}
